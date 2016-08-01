@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvcStructureMapIntegrationTesting", "AspNetMvcStructureMapIntegrationTesting\AspNetMvcStructureMapIntegrationTesting.csproj", "{D9E7B974-BA32-4E20-9A21-D8D957FE23BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F992D46D-82B0-4143-9530-96C62D001696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{61E807E7-C9CC-445B-A844-31C57658CC32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvcStructureMapIntegrationTesting.IntegrationTests", "AspNetMvcStructureMapIntegrationTesting.IntegrationTests\AspNetMvcStructureMapIntegrationTesting.IntegrationTests.csproj", "{68E6AA4A-B306-4F36-ACCC-5A2F6C390DBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E7B974-BA32-4E20-9A21-D8D957FE23BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E7B974-BA32-4E20-9A21-D8D957FE23BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E7B974-BA32-4E20-9A21-D8D957FE23BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E7B974-BA32-4E20-9A21-D8D957FE23BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E6AA4A-B306-4F36-ACCC-5A2F6C390DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E6AA4A-B306-4F36-ACCC-5A2F6C390DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E6AA4A-B306-4F36-ACCC-5A2F6C390DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E6AA4A-B306-4F36-ACCC-5A2F6C390DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9E7B974-BA32-4E20-9A21-D8D957FE23BD} = {F992D46D-82B0-4143-9530-96C62D001696}
+		{68E6AA4A-B306-4F36-ACCC-5A2F6C390DBB} = {61E807E7-C9CC-445B-A844-31C57658CC32}
+	EndGlobalSection
+EndGlobal
